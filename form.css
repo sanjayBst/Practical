@@ -1,0 +1,72 @@
+body{
+
+font-family: 'Righteous', cursive;
+color: aliceblue;
+margin: 0px;
+padding: 0px;
+background-image: url(mk.jpg);
+}
+
+
+.left{
+    display: inline-block;
+    position: absolute;
+     left: 0px;
+     top: 0px;
+    
+    }
+    .left img{
+      width: 136px;
+      filter: invert(100%);
+    }
+    .left img{
+      width: 125px;
+      filter: invert(93%);
+    }
+    .left div{
+      line-height:5px;
+      font-size: 18px;
+    }
+
+    .container{
+        border:2px solid  green;
+        margin: 140px 40px;
+        padding: 20px 20px;
+        width: 35%;
+        border-radius: 10px;
+        }
+        .container h2{
+        text-align: center;
+        }
+        .container h6{
+          text-align: right;
+          margin: 20px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+      .form-group input{
+        font-family: 'Righteous', cursive;
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 6px;
+        font-size: 14px;
+        border: 2px solid black;
+        margin: 5px auto;
+        border-radius: 14px;
+      }
+      .container .btn{
+        display: block;
+        width: 25%;
+        margin: 18px auto;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border-radius: 10px;
+        font-size: 12px;
+        cursor: pointer;
+        font-family: 'Righteous', cursive;
+      }
+     
+     
+
+     

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <form >   
+        <input id="name" type="text" name="name" placeholder="Full Name">
+        <input type="email" name="email" placeholder="Email Address"><br>
+        <input type="checkbox" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" name="vehicle3" value="Truck" >
+        <label for="vehicle3"> I have a Truck</label><br><br>
+        <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female" >
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+  <input type="submit"  value="Submit">
+      </form>
+      
+<span  id="data"></span>
+
+</body>
+<script>
+    var userPreference;
+
+   if (confirm("Do you want to Enter this Page?") == true) {
+       userPreference = "Data saved successfully!";
+   } else {
+       userPreference = "Save Canceled!";
+   }
+
+   document.getElementById("msg").innerHTML = userPreference; 
+
+</script>
+</html>

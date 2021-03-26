@@ -1,0 +1,72 @@
+html, body{
+    /* text-align: center; */
+    margin: 0;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.8em;
+    height: 100%;
+    color: rgb(2, 0, 0);
+}
+
+.first {
+    background-image: url(kk.jpg);
+    min-height: 100%;
+    background-size: cover;
+}
+
+.second {
+    background-image: url(aireal.jpg);
+    min-height: 80%;
+    background-size: cover;
+}
+
+.third {
+    background-image: url(img3.jpg);
+    min-height: 75%;
+    background-size: cover;
+}
+
+.first, .second, .third{
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.light {
+    background-color: white;
+    padding: 50px 70px;
+    color: rgb(65, 65, 65);
+    text-align: center;
+}
+
+.medium{
+    background-color:rgb(248, 223, 170);
+    padding: 50px 70px;
+    color: black;
+    text-align: center;
+}
+
+.dark {
+    background-color: black;
+    padding: 50px 70px;
+    color: white;
+    text-align: center;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+@media(max-width:560px){
+    .First, .second, .Third{
+        background-attachment: scroll;
+    }
+}  
